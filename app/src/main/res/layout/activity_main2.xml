@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bailarina1"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/zapatilla"
+        android:layout_marginTop="100dp"
+        android:id="@+id/zapatilla"
+
+        />
+
+    <ImageView
+        android:id="@+id/peliculas"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/zapatilla"
+        android:src="@drawable/manos" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/estrella"
+        android:layout_alignParentTop="@id/zapatilla"
+        android:layout_marginTop="98dp"
+        />
+
+</RelativeLayout>
